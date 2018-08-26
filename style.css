@@ -3,11 +3,19 @@
 
 .div1{
 	background-image: url("Main-Ground.jpg");
-	min-height:500px;
-	min-width:400px;	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+		
 }
 
-div1:hover{
-	background-image: url("error.jpg");
+.div1:hover{
+	background-image: url("86818814.jpg");
 	transition : all 2s  ease-in-out;
 }
+
+bodu{
+	font-family:Century Gothic;
+	align:left;
+	color:#C9C
+	}
