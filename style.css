@@ -2,20 +2,63 @@
 /* CSS Document */
 
 .div1{
-	background-image: url("Main-Ground.jpg");
+	background-image: url("31768758_1948586628788657_7482555378706677760_n.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	
+	
+	
 		
 }
 
 .div1:hover{
-	background-image: url("86818814.jpg");
+	background-image: url("30222156_1935021163478537_961835398540302903_n.jpg");
 	transition : all 2s  ease-in-out;
 }
 
-bodu{
+.head{
+	background: rgba(10,3,1,0.3);
+	width: 320px;
+	font-family: Ink Free Regular ;
+	
+	font-size: 50px;
+}
+
+.t1{
+	background: rgba(10,3,1,0.3);
+}
+
+body{
 	font-family:Century Gothic;
 	align:left;
 	color:#C9C
 	}
+
+.footage{
+	align: center;
+	background: rgba(9,9,9,0.3);
+	height: 300px;
+	color: black;
+	font-size: 15px;
+	color: aliceblue;
+}
+
+.path{
+	align: center;
+	background: rgba(9,9,9,0.3);
+	height: 40px;
+	width: 800px;
+	
+	
+}
+
+.a:hover{
+	
+	background-color:dodgerblue;
+	height: 1px;
+	transition : all 0.7s  ease-in-out;
+	}
+a{
+	color: aliceblue;
+}
