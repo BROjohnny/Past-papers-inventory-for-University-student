@@ -1,10 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
-.div1{
-	background-image: url("31768758_1948586628788657_7482555378706677760_n.jpg");
+.bakground{
+	background-image: url(background1.jpg);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center center;
+	background-attachment: fixed;
 	background-size: cover;
 	
 	
@@ -12,22 +13,27 @@
 		
 }
 
-.div1:hover{
-	background-image: url("30222156_1935021163478537_961835398540302903_n.jpg");
+.bakground:hover{
+	
+	background-image: url(background2.jpg);
 	transition : all 2s  ease-in-out;
+	
 }
 
 .head{
-	background: rgba(10,3,1,0.3);
+	background: rgba(0,0,0,0.7);
 	width: 320px;
 	font-family: Ink Free Regular ;
-	
+	color: aliceblue;
 	font-size: 50px;
 }
 
 .t1{
 	background: rgba(10,3,1,0.3);
+	margin: auto;
+	
 }
+
 
 body{
 	font-family:Century Gothic;
@@ -49,10 +55,11 @@ body{
 	background: rgba(9,9,9,0.3);
 	height: 40px;
 	width: 800px;
-	
-	
 }
-
+ 
+.path:hover{
+	opacity: 1.0;
+}
 .a:hover{
 	
 	background-color:dodgerblue;
@@ -60,5 +67,53 @@ body{
 	transition : all 0.7s  ease-in-out;
 	}
 a{
+	text-decoration: none;
 	color: aliceblue;
+}
+
+.main{
+	margin:auto;
+	width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px){
+	.bakground{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	bakground:hover{	
+		
+		background-image: url(background2.jpg);
+		transition : all 2s  ease-in-out;
+	}
+	.head{
+		width: auto;
+		margin-top: 0px;
+	}
+	.main{
+		margin:auto;
+		width: 100%;
+	}
+	.t1 table
+	{
+	margin-left: 0px;
+	cellspacing:0px;
+	width:10px;
+	height:10px;
+	}
+
 }
