@@ -35,7 +35,7 @@
 	font-size:15px;
 	color:aliceblue;
 	width:600px;
-	height:400px;
+	height:200px;
 }
 
 div.t1 fieldset legend{
@@ -93,6 +93,7 @@ body{
 	height: 300px;
 	font-size: 15px;
 	color: aliceblue;
+	margin-top: 20px;
 }
 
 .footagepara{
@@ -155,10 +156,14 @@ a{
 	color: dodgerblue;
 }
 
+.t2{
+	margin: 20px;
+}
+
 .t2 table{
 	background: rgba(0,0,0,0.4);
-	position: absolute;
-	right: 300px;
+	float:right;
+	margin-right: 220px;
 	cellspacing :40px;
 	width :700px;
 	height : 400px;
