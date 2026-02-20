@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .bakground{
-	background-image: url(Images/background1.jpg);
+	background-image: url(../images/background1.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -13,7 +13,7 @@
 
 .bakground:hover{
 	
-	background-image: url(Images/background2.jpg);
+	background-image: url(../images/background2.jpg);
 	transition : all 2s  ease-in-out;
 	
 }
@@ -248,7 +248,7 @@ a{
 	}
 	bakground:hover{	
 		
-		background-image: url(background2.jpg);
+		background-image: url(assets/images/background2.jpg);
 		transition : all 2s  ease-in-out;
 	}
 	.head{
